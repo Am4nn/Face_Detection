@@ -119,7 +119,7 @@ button:disabled {
     display: none;
 }
 
-.tooltip1:hover .left {
+.tooltip1 .left {
     display: block;
 }
 
