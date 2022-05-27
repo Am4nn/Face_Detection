@@ -44,8 +44,8 @@ canvas {
 }
 
 button:disabled {
-    background: hsl(0, 82%, 82%)!important;
-    color: hsl(200, 30%, 90%)!important;
+    background: hsl(0, 82%, 82%) !important;
+    color: hsl(200, 30%, 90%) !important;
 }
 
 .answerCorrect {
@@ -83,63 +83,64 @@ button:disabled {
     text-shadow: 0px 3px 3px hsl(0, 0%, 70%);
 }
 
-.box-shadow{
+.box-shadow {
     box-shadow: 2px 2px 3px 2px hsl(0, 0%, 40%, 0.6);
 }
 
-.box-shadow2{
+.box-shadow2 {
     box-shadow: 0px 0px 6px 4px hsl(0, 0%, 40%, 0.5);
 }
 
 
 
-
 .tooltip1 {
-    display:inline-block;
-    position:relative;
-    border-bottom:1px dotted #666;
-    text-align:left;
+    display: inline-block;
+    position: relative;
+    border-bottom: 1px dotted #666;
+    text-align: left;
 }
 
-.tooltip1 .top {
-    min-width:200px; 
-    top:-20px;
-    left:50%;
-    transform:translate(-50%, -100%);
-    padding:10px 20px;
-    color:#444444;
-    background-color:#EEEEEE;
-    font-weight:normal;
-    font-size:13px;
-    border-radius:8px;
-    position:absolute;
-    z-index:99999999;
-    box-sizing:border-box;
-    box-shadow:0 1px 8px rgba(0,0,0,0.5);
-    display:none;
+.tooltip1 .left {
+    min-width: 200px;
+    top: 50%;
+    right: 100%;
+    margin-right: 20px;
+    transform: translate(0, -50%);
+    padding: 10px 20px;
+    color: #444444;
+    background-color: #EEEEEE;
+    font-weight: normal;
+    font-size: 13px;
+    border-radius: 8px;
+    position: absolute;
+    z-index: 99999999;
+    box-sizing: border-box;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
+    display: none;
 }
 
-.tooltip1:hover .top {
-    display:block;
+.tooltip1:hover .left {
+    display: block;
 }
 
-.tooltip1 .top i {
-    position:absolute;
-    top:100%;
-    left:50%;
-    margin-left:-12px;
-    width:24px;
-    height:12px;
-    overflow:hidden;
+.tooltip1 .left i {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    margin-top: -12px;
+    width: 12px;
+    height: 24px;
+    overflow: hidden;
 }
 
-.tooltip1 .top i::after {
-    content:'';
-    position:absolute;
-    width:12px;
-    height:12px;
-    left:50%;
-    transform:translate(-50%,-50%) rotate(45deg);
-    background-color:#EEEEEE;
-    box-shadow:0 1px 8px rgba(0,0,0,0.5);
+.tooltip1 .left i::after {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 0;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    background-color: #EEEEEE;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
 }
