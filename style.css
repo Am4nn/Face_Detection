@@ -25,6 +25,11 @@ body {
     display: none;
 }
 
+.btnctrl {
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+}
+
 #one {
     margin-left: auto;
     margin-right: auto;
